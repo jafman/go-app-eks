@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: go-app
-        image: pavansa/golang-hello-world:latest
+        image: jafman/go-app:latest
         ports:
         - containerPort: 8080
         env:
